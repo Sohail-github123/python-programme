@@ -1,0 +1,15 @@
+#string slicing
+mystr='my name is sohail'
+print(len(mystr))
+#print(mystr[0:18])
+#print(mystr[:])
+print(mystr[0:18:])
+print(mystr[::])
+print(mystr[-6:])
+print(mystr.isalnum())
+print(mystr.isalpha())
+print(mystr.endswith("sohail"))
+print(mystr.count("a"))
+print(mystr.capitalize())
+print(mystr.upper())
+print(mystr.replace("my","your"))
